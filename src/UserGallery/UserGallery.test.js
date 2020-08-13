@@ -7,7 +7,7 @@ import PaintingInfo from '../PaintingInfo/PaintingInfo'
 import { getPaintings } from '../apiCalls'
 import '@testing-library/jest-dom'
 
-jest.mock('../ApiCalls')
+// jest.mock('../ApiCalls')
 
 describe('UserGallery', () => {
   let userGalleryElement1 = null
