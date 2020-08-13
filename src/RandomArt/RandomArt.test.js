@@ -5,7 +5,7 @@ import '@testing-library/jest-dom/extend-expect'
 import RandomArt from './RandomArt'
 
 describe('Explore Page', () => {
-  it('should display all nav elements on load', () => {
+  it.skip('should display all nav elements on load', () => {
     const { getByText, getByRole } = render(<MemoryRouter><RandomArt /></MemoryRouter>)
     const pageTitle = getByText('ArtisTry')
     const galleryLink = getByRole('link', { name: 'My Gallery' })
